@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.myapplication.RegisterAsPengajarActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/sign_in_form"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/colorAccent3"
+                android:gravity="center"
+                android:text="Daftar Sebagai Pengajar"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton39"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/stroke_button"
+                app:srcCompat="@color/colorAccent3"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="300dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Tanda bintang (*) menandakan wajib diisi"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/namaLengkapPengajarEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Nama Lengkap Anda"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="*Jenis Kelamin (Pilih Salah Satu)"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/ikhwanPengajarCheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="Laki-laki (Ikhwan)"
+                    tools:ignore="RtlHardcoded" />
+
+                <CheckBox
+                    android:id="@+id/akhwatPengajarCheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="Perempuan (Akhwat)"
+                    tools:ignore="RtlHardcoded" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/tempatLahirPengajarEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Tempat Lahir"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/tanggalLahirPengajarEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Tanggal Lahir"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Format Tanggal: TanggalBulanTahun"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Contoh: 07072017 (7 Juni 2017)"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/nomorHPPengajarEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Nomor HP"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/emailPengajarEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/pendidikanTerakhirPengajarEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Pendidikan Terakhir"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/pekerjaanUtamaPengajarEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Pekerjaan Utama"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/mitraEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Mitra"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/kodeVerifikasiMitraEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Kode Verifikasi Mitra"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView47"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Kode kvrifikasi mitra hanya bisa didapatkan dari masing-masing mitra terkait"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/statusPengajarEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Status/Sesuatu yang ingin dikatakan"
+                android:inputType="textLongMessage" />
+
+            <EditText
+                android:id="@+id/linePengajarEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="ID Line"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/facebookPengajarEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Facebook"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/twitterPengajarEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Twitter"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/instagramPengajarEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Instagram"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/usernamePengajarEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Username"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/passwordPengajarEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Password"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/ulangiPasswordPengajarEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Ulangi Password"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/daftarTextView"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorAccent3"
+                android:gravity="center"
+                android:text="Daftar"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.constraint.ConstraintLayout>

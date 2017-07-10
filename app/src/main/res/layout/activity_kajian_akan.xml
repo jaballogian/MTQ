@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.myapplication.KajianAkanActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@color/colorAccent4"
+                android:gravity="center"
+                android:text="Kajian - Akan Datang"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_weight="1"
+                app:srcCompat="@color/colorAccent4"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/background_light"
+                android:text='"Dakwah Layar Kaca"'
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent4"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:text="Judul"
+                android:textAlignment="center"
+                android:textColor="#b4b5b5" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:text="Deddy MIzwar"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent4"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:text="Pemateri"
+                android:textAlignment="center"
+                android:textColor="#b4b5b5" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:text="Masjid Salman ITB"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent4"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:text="Lokasi"
+                android:textAlignment="center"
+                android:textColor="#b4b5b5" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:text="Rabu, 14 Juni 2017"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent4"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:text="Hari dan Tanggal"
+                android:textAlignment="center"
+                android:textColor="#b4b5b5" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:text="15.30 - 17.30"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent4"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:text="Waktu"
+                android:textAlignment="center"
+                android:textColor="#b4b5b5" />
+
+            <TextView
+                android:id="@+id/textView20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:text="Umum"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent4"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:text="Peserta"
+                android:textAlignment="center"
+                android:textColor="#b4b5b5" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:text="Sisa 50 dari 100 Orang"
+                android:textAlignment="center"
+                android:textColor="@color/colorAccent4"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_weight="1"
+                android:background="@android:color/background_light"
+                android:text="Kuota"
+                android:textAlignment="center"
+                android:textColor="#b4b5b5" />
+
+            <TextView
+                android:id="@+id/textView54"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_weight="1"
+                android:background="@color/colorAccent4"
+                android:gravity="center"
+                android:text="Daftarkan Saya"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.constraint.ConstraintLayout>

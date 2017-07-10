@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.myapplication.RegisterAsAdminMasjidActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:background="@mipmap/sign_in_form"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp">
+
+            <TextView
+                android:id="@+id/textView31"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/colorAccent3"
+                android:gravity="center"
+                android:text="Daftar Sebagai Admin Masjid"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton37"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/stroke_button"
+                app:srcCompat="@color/colorAccent3"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/textView33"
+                android:layout_width="300dp"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="Tanda bintang (*) menandakan wajib diisi"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/namaLengkapAdminEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Nama Lengkap Admin"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/nomorHPAdminEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Nomor HP Admin"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/namaLengkapMasjidEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Nama Lengkap Masjid"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/lokasiMasjidEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Lokasi Masjid"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/nomorKontakMasjidEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Nomor Kontak Masjid"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="300dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Bila tidak ada nomor kontak masjid, bisa memakai nomor kontak admin masjid"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/emailMasjidEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Email Masjid"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/webMasjidEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Web"
+                android:inputType="textWebEmailAddress" />
+
+            <EditText
+                android:id="@+id/facebookMasjidEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Facebook"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/twitterMasjidEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Twitter"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/instagramMasjidEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Instagram"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/kodeVerifikasiMasjidEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Kode Verifikasi Masjid"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textView62"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:text="Kode Verfikasi Masjid Hanya Didapatkan Jika Masjid Sudah Terdaftar pada Aplikasi"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/usernameMasjidEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Username"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/passwordMasjidEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Password"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/ulangiPasswordMasjidEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Ulangi Password"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/daftarTextView"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_margin="10dp"
+                android:background="@color/colorAccent3"
+                android:gravity="center"
+                android:text="Daftar"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.constraint.ConstraintLayout>

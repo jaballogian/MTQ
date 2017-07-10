@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.asus.myapplication.RegisterAsMuridActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:background="@mipmap/sign_in_form"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="1">
+
+            <TextView
+                android:id="@+id/textView35"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@color/colorAccent3"
+                android:gravity="center"
+                android:text="Daftar Sebagai Murid"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+            <ImageButton
+                android:id="@+id/imageButton39"
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/stroke_button"
+                app:srcCompat="@color/colorAccent3"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/textView36"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Tanda bintang (*) menandakan wajib diisi"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/namaLengkapMuridEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Nama Lengkap Anda"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/textView37"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="*Jenis Kelamin (Pilih Salah Satu)"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <CheckBox
+                    android:id="@+id/ikhwanMuridCheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="Laki-laki (Ikhwan)"
+                    tools:ignore="RtlHardcoded" />
+
+                <CheckBox
+                    android:id="@+id/akhwatMuridCheckBox"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_weight="1"
+                    android:text="Perempuan (Akhwat)"
+                    tools:ignore="RtlHardcoded" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/tempatLahirMuridEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Tempat Lahir"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/tanggalLahirMuridEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Tanggal Lahir"
+                android:inputType="number" />
+
+            <TextView
+                android:id="@+id/textView46"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Format Tanggal: TanggalBulanTahun"
+                android:textAlignment="center" />
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_marginTop="10dp"
+                android:text="Contoh: 07072017 (7 Juni 2017)"
+                android:textAlignment="center" />
+
+            <EditText
+                android:id="@+id/nomorHPMuridEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Nomor HP"
+                android:inputType="number" />
+
+            <EditText
+                android:id="@+id/emailMuridEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Email"
+                android:inputType="textEmailAddress" />
+
+            <EditText
+                android:id="@+id/statusMuridEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Status/Sesuatu yang ingin dikatakan"
+                android:inputType="textLongMessage" />
+
+            <EditText
+                android:id="@+id/lineMuridEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="ID Line"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/facebookMuridEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Facebook"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/twitterMuridEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Twitter"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/instagramMuridEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_weight="0.10"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Instagram"
+                android:inputType="textPersonName"
+                tools:ignore="InefficientWeight" />
+
+            <EditText
+                android:id="@+id/usernameMuridEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Username"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/passwordMuridEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Password"
+                android:inputType="textPassword" />
+
+            <EditText
+                android:id="@+id/ulangiPasswordMuridEditText"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="*Ulangi Password"
+                android:inputType="textPassword" />
+
+            <TextView
+                android:id="@+id/daftarTextView"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorAccent3"
+                android:gravity="center"
+                android:text="Daftar"
+                android:textAlignment="center"
+                android:textColor="#ffffff"
+                android:textSize="24sp" />
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</android.support.constraint.ConstraintLayout>
